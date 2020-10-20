@@ -40,7 +40,7 @@ report %>%
   group_by(`Country or region`) %>%
   filter(`Social support` == max(report$`Social support`))
 
-#arrange countries from lowest to highest based on Healthy life expectancy
+#Arrange countries from lowest to highest based on Healthy life expectancy
 
 
 #Does the level of freedom has an effect on the happiness score?
